@@ -34,10 +34,10 @@ mv "YOUR_APP".ipa Resigner
 security find-identity -v -p codesigning
   ```
   - Inside Resigner edit `config.env`
-  ```bash
- cert="YOUR_CERTIFICATE_IN_KEYCHAIN"
- profile="NEW_PROVISIONING_PROFILE"
- ```
+         ```bash
+        cert="YOUR_CERTIFICATE_IN_KEYCHAIN"
+        profile="NEW_PROVISIONING_PROFILE"
+        ```
 **6.** Change permissions to run this shell script as executable
 ```bash
 chmod +x resigner.sh
