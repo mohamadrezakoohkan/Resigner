@@ -33,7 +33,8 @@ mv "YOUR_APP".ipa Resigner
   ```bash
 security find-identity -v -p codesigning
   ```
-  - Inside Resigner edit `config.env`
+  - Inside Resigner edit `config.env`    
+  
          ```bash
         cert="YOUR_CERTIFICATE_IN_KEYCHAIN"
         profile="NEW_PROVISIONING_PROFILE"
