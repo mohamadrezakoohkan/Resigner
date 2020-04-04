@@ -12,7 +12,7 @@ This tool takes 10 step to resign an iOS app under **10 seconds**
 
 1. Clone the repo inside your working directory
 
-        https://github.com/mohamadrezakoohkan/Resigner
+       https://github.com/mohamadrezakoohkan/Resigner
  
  2. Change directory to `Resigner`
 
@@ -20,11 +20,11 @@ This tool takes 10 step to resign an iOS app under **10 seconds**
         
 3. Add your provisioning profile to `Resigner` folder  
 
-        cp "YOUR_PROVISIONING_PROFILE".mobileprovision Resigner
+       cp "YOUR_PROVISIONING_PROFILE".mobileprovision Resigner
 
 4. Add the app you want to resign
 
-        mv "YOUR_APP".ipa Resigner
+       mv "YOUR_APP".ipa Resigner
 
 5. Open `config.env` and edit with your signing certificate and provisioning profile name
 
@@ -44,6 +44,23 @@ This tool takes 10 step to resign an iOS app under **10 seconds**
 7. Installation successfully completed, now you can run script whenever you want using:
 
        ./resigner.sh
+       
+
+## Usage
+
+Example of how to implement Plister in your project.
+
+```swift
+import Plister
+
+let plist = Plist(withNameAtDocumentDirectory: "Github")
+
+plist.set("Mohamadreza Koohkan", for: "Developer")
+
+plist.get("Developer")
+// output will be Mohamadreza Koohkan
+
+```
 
 ## Contact
 
