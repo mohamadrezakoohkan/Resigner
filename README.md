@@ -10,24 +10,24 @@ This tool takes 10 step to resign an iOS app under **10 seconds**
 
 ## Installation
 
-1. Clone the repo inside your working directory
+**1.** Clone the repo inside your working directory
 ```bash
 https://github.com/mohamadrezakoohkan/Resigner
 ```
 
- 2. Change directory to `Resigner`
+ **2.** Change directory to `Resigner`
 ```bash
 cd Resigner
 ```
-3. Add your provisioning profile to `Resigner` folder  
+**3.** Add your provisioning profile to `Resigner` folder  
 ```bash
 cp "YOUR_PROVISIONING_PROFILE".mobileprovision Resigner
 ```
-4. Add the app you want to resign
+**4.** Add the app you want to resign
 ```bash
 mv "YOUR_APP".ipa Resigner
 ```
-5. Open `config.env` and edit with your signing certificate and provisioning profile name
+**5.** Open `config.env` and edit with your signing certificate and provisioning profile name
 
   - If you have your signing certificate name in your hand, skip this step
   ```bash
@@ -38,11 +38,11 @@ security find-identity -v -p codesigning
  cert="YOUR_CERTIFICATE_IN_KEYCHAIN"
  profile="NEW_PROVISIONING_PROFILE"
  ```
-6. Change permissions to run this shell script as executable
+**6.** Change permissions to run this shell script as executable
 ```bash
 chmod +x resigner.sh
 ```
-7. Installation successfully completed, now you can run script whenever you want using:
+**7.** Installation successfully completed, now you can run script whenever you want using:
 ```bash
 ./resigner.sh
 ```
