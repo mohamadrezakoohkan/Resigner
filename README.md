@@ -30,9 +30,10 @@ mv "YOUR_APP".ipa Resigner
 **5.** Open `config.env` and edit with your signing certificate and provisioning profile name
 
   - If you have your signing certificate name in your hand, skip this step
-  ```bash
-security find-identity -v -p codesigning
-  ```
+  
+    ```bash
+    security find-identity -v -p codesigning
+    ```
   - Inside Resigner edit `config.env`    
   
     ```bash
