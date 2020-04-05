@@ -54,7 +54,7 @@ chmod +x resigner.sh
 
 ## Usage
 
-### Project tree should look like:
+Project tree should look like:
 
  - Resigner 
      - myApp.ipa
@@ -65,11 +65,10 @@ chmod +x resigner.sh
      - resigner.sh
      - README.md
      - LICENSE.md
-     - Example >> Example
+     - Example
      - Example-Screenshot
                
-#### Run `./resigner.sh` inside Resigner folder and steps begin.
-
+ Run `./resigner.sh` inside Resigner folder and steps begin.
 
 ![Resigner](https://raw.githubusercontent.com/mohamadrezakoohkan/Resigner/master/Example-Screenshot.png)
 
