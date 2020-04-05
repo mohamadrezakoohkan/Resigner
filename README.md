@@ -56,16 +56,17 @@ chmod +x resigner.sh
 
 ### Project tree should look like:
 
- Resigner -- myApp.ipa
-                -- myProfile.mobileprovision
-                -- config.env
-                -- constants.env
-                -- methods.sh
-                -- resigner.sh
-                -- README.md
-                -- LICENSE.md
-                -- Example
-                -- Example-Screenshot
+ - Resigner 
+     - myApp.ipa
+     - myProfile.mobileprovision
+     - config.env
+     - constants.env
+     - methods.sh
+     - resigner.sh
+     - README.md
+     - LICENSE.md
+     - Example >> Example
+     - Example-Screenshot
                
 #### Run `./resigner.sh` inside Resigner folder and steps begin.
 
