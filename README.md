@@ -23,11 +23,11 @@ cd Resigner
 ```
 **3.** Add your provisioning profile to `Resigner` folder  
 ```bash
-cp "YOUR_PROVISIONING_PROFILE".mobileprovision Resigner
+cp YOUR_PROVISIONING_PROFILE.mobileprovision Resigner
 ```
 **4.** Add the app you want to resign
 ```bash
-mv "YOUR_APP".ipa Resigner
+mv YOUR_APP.ipa Resigner
 ```
 **5.** Open `config.env` and edit with your signing certificate and provisioning profile name
 
