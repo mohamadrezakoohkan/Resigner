@@ -21,8 +21,9 @@ archive() {
 }
 
 locate() {
-    pwd
     pwd | pbcopy
+    echo "$(pbpaste)$1"
+    
 }
 
 delete() {
@@ -51,5 +52,9 @@ verify() {
 setProfile() {
     cp ../../$1.mobileprovision embedded.mobileprovision
     cd ../..
+}
+
+sign() {
+    codesign -d --verbose -f -s  "$1" $(pbpaste)
 }
 

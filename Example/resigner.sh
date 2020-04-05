@@ -21,7 +21,7 @@ step "Replace provisioning profile"
 setProfile ${profile}
 
 step "Signing IPA"
-codesign -d --verbose -f -s  "${cert}" $(pbpaste)
+sign "$cert"
 
 step "Please define IPA name to archive:"
 archive
@@ -30,5 +30,5 @@ step "Payload removed"
 delete Payload
 
 step "Signed IPA generated"
-locate
+locate "/$ipaName.ipa"
 
