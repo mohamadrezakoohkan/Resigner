@@ -1,7 +1,10 @@
 
 # Resigner
 Resigner is a shell script to resign iOS app's  
-This tool takes 10 step to resign an iOS app under **10 seconds**
+This tool takes 9 step to resign an iOS app under **10 seconds**
+
+![Resigner](https://raw.githubusercontent.com/mohamadrezakoohkan/Resigner/master/Example-Screenshot.png)
+
 
 ## Requirements
 - mac OS 
@@ -51,19 +54,24 @@ chmod +x resigner.sh
 
 ## Usage
 
-Example of how to implement Plister in your project.
+Project tree should look like:
 
-```swift
-import Plister
+Resigner -- myApp.ipa
+               -- myProfile.mobileprovision
+               -- config.env
+               -- constants.env
+               -- methods.sh
+               -- resigner.sh
+               -- README.md
+               -- LICENSE.md
+               -- Example
+               -- Example-Screenshot
+               
+Run` ./resigner.sh` inside Resigner folder and steps begin.
 
-let plist = Plist(withNameAtDocumentDirectory: "Github")
 
-plist.set("Mohamadreza Koohkan", for: "Developer")
+![Resigner](https://raw.githubusercontent.com/mohamadrezakoohkan/Resigner/master/Example-Screenshot.png)
 
-plist.get("Developer")
-// output will be Mohamadreza Koohkan
-
-```
 
 ## Contact
 
