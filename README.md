@@ -3,8 +3,7 @@
 Resigner is a shell script to resign iOS app's  
 This tool takes 9 step to resign an iOS app under **10 seconds**
 
-![Resigner](https://raw.githubusercontent.com/mohamadrezakoohkan/Resigner/master/Example-Screenshot.png)
-
+<center>
 <img src="https://raw.githubusercontent.com/mohamadrezakoohkan/Resigner/master/Example-Screenshot.png" width="500">
 
 ## Requirements
