@@ -50,7 +50,7 @@ verify() {
 }
 
 setProfile() {
-    cp ../../$1.mobileprovision embedded.mobileprovision
+    cp $1 embedded.mobileprovision
     cd ../..
 }
 
